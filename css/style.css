@@ -7,6 +7,9 @@
   line-height: 25px;
   font-family: 'Varela Round', sans-serif;
   }
+  html{
+    scroll-behavior: smooth;
+  }
   
   a{
     color: #fff;
@@ -28,8 +31,8 @@
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #1e1e26;
-    height: 10vh;
+    background: #2a0d3f;
+    height: 13vh;
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -66,10 +69,10 @@
    border-bottom: 1px;
 }
 .img-news{
-    width: 100%;
-    height: 300px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 .titulo{
   margin-left: 30px;
@@ -90,7 +93,7 @@ footer{
   text-align: justify;
 }
 .container-info1{
- width: 120vh;
+ width: 190vh;
  margin-top: 100px;
  display: flex;
  align-items: center;
@@ -98,3 +101,20 @@ footer{
  padding: 2%;
  background-color: #fff;
 }
+.kk{
+  width: 900px;
+}
+.dever{
+  
+  display: flex;
+}
+.ff{
+  width: 45%;
+  height: 45%;
+  margin-left: 20px
+}
+h3{
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
