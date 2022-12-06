@@ -31,7 +31,7 @@
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #191820;
+    background: #200831;
     height: 13vh;
     position: fixed;
     width: 100%;
@@ -83,7 +83,7 @@
 }
 footer{
     margin-top: 10vh;
-    background-color: #191820;
+    background-color: #200831;
     color: #fff;
     text-align: center;
     padding: 2%;
@@ -144,7 +144,7 @@ input,
 textarea {
   margin-bottom: 1rem;
   color: white;
-  background: #191820;
+  background: #100617;
   border: 0.125rem solid transparent;
   border-radius: 1.125rem;
   transition: border-color 0.3s, box-shadow 0.3s;
@@ -207,7 +207,7 @@ button:disabled {
 .container-contato{
   box-shadow: 3px 3px 10px  rgb(224, 223, 223);
   width: 50%;
-  height: 80vh;
+  height: 100vh;
   
 }
 
