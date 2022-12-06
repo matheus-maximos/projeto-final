@@ -31,7 +31,7 @@
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #2a0d3f;
+    background: #191820;
     height: 13vh;
     position: fixed;
     width: 100%;
@@ -61,7 +61,7 @@
     transition: .5s;
     padding: 10px;
     width: 80%;
-    border-radius: 5px;
+    border-radius: 50%;
     text-align: justify;
 }
 .item-news-cards:hover{
@@ -83,7 +83,7 @@
 }
 footer{
     margin-top: 10vh;
-    background-color: #1e1e26;
+    background-color: #191820;
     color: #fff;
     text-align: center;
     padding: 2%;
@@ -93,7 +93,7 @@ footer{
   text-align: justify;
 }
 .container-info1{
- width: 190vh;
+ width: 90%;
  margin-top: 100px;
  display: flex;
  align-items: center;
@@ -101,14 +101,14 @@ footer{
  padding: 2%;
  background-color: #fff;
 }
-.kk{
+.img-info{
   width: 900px;
 }
 .dever{
   
   display: flex;
 }
-.ff{
+.img-dever{
   width: 45%;
   height: 45%;
   margin-left: 20px
@@ -116,5 +116,98 @@ footer{
 h3{
   font-size: 33px;
   font-family: Arial, Helvetica, sans-serif;
+}
+form {
+  
+  width: 100%;
+  max-width: 30rem;
+  padding-top: 100px;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  font: inherit;
+  padding: 1.25rem;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  color: white;
+  background: #191820;
+  border: 0.125rem solid transparent;
+  border-radius: 1.125rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  outline: none;
+  border-color: #1d90f5;
+  box-shadow: 0 0 0 0.3125rem #26344a;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: #84868f;
+}
+
+textarea {
+  min-height: 6rem;
+  resize: vertical;
+}
+
+button {
+  border: none;
+  border-radius: 99px;
+  color: white;
+  background: #1d90f5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: #1c70d3;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: #555b69;
+}
+
+.success,
+.error {
+  text-align: center;
+}
+
+.success {
+  color: rgb(0, 45, 7);
+}
+
+.error {
+  color: tomato;
+}
+.contato{
+  padding-top: 13vh;
+}
+.container-contato{
+  box-shadow: 3px 3px 10px  rgb(224, 223, 223);
+  width: 50%;
+  height: 80vh;
+  
 }
 
